@@ -74,7 +74,7 @@
 # ---
 
 # 💡 Brief explanation of each type:
-# 🇺🇸🏴󠁧󠁢󠁥󠁮󠁧󠁿ENG
+# 🇺🇸󠁿ENG
 # 1. **List (`[]`)**
 #
 # * 🔁 *Mutable*: can change its contents after creation (add, change, delete elements).
