@@ -1,4 +1,3 @@
-
 # ```python
 # --------------------------------------------------------------
 # 🧱 Collection Data-Types in Python (List | Tuple | Set | Dict)
@@ -12,13 +11,59 @@
 # --------------------------------------------------------------
 
 
-# --------------------------
+#--------------------------------------------------------
+# Explanation syntax:
+#  1. List (like array bro)
 
+empty_list = []
+#my_list = ['urang', 'maneh', 'anjeun', 'sia'] #4 data (0,1,2,3) or (-1,-2,-3,-4)
 
+#get single list item
+#--------------------------------------------------------
 
+# #0-3
+# print (my_list[0])
+# print (my_list[1])
+# print (my_list[2])
+# print (my_list[3])
+#
+# #-4(-)-1
+# print (my_list[-1])
+# print (my_list[-2])
+# print (my_list[-3])
+# print (my_list[-4])
 
+#get multi list item (slice)
+#--------------------------------------------------------
 
+# my_list = ['wall', 'floor', 'roof', 'ceiling', 'wall', 'floor', 'roof', 'ceiling']
 
+# print(my_list[:2])  #mean [('wall', 'floor'), 'roof', 'ceiling'], output ['wall', 'floor']   , Get until 2nd Item (excl)
+# print(my_list[2:])  #mean ['wall', 'floor', ('roof', 'ceiling')], output ['roof', 'ceiling'] , Get from 2nd Item (incl)
+# print(my_list[1:3]) #mean ['wall', ('floor', 'roof'), 'ceiling'], output ['floor', 'roof']    , Get from first(incl) until third (excl)
+#
+# print(my_list[::2])   # get every 2nd item
+# print(my_list[2:6:2]) # get every 2nd item from 2nd(incl) until 6th(excl)
+# print(my_list[::-1])  # trick to reverse list
+
+# Slicing use-case example
+#--------------------------------------------------------
+# my_list = ['categories', 'wall', 'floor', 'roof', 'ceiling']
+#
+# header =my_list[0]
+# data   =my_list[1:]
+#
+# print(header)
+# print(data)
+
+# membership operators (necessary for logic)
+#--------------------------------------------------------
+my_list = ['wall','floor','roof','ceiling']
+
+print('wall' in my_list)
+print('wall' not in my_list)
+print('door' in my_list)
+print('door' not in my_list)
 
 
 # --------------------------
